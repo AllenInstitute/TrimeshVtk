@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "trimesh-vtk"
+version = "0.0.1"
+description = "A python module for creating VTK visualizations of meshes and skeletons from Trimesh/MeshParty"
+authors = ["Forrest Collman <forrestc@alleninstute.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+vtk = "^9.0.0"
+numpy = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+pytest-xdist = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
