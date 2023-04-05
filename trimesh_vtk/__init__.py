@@ -429,6 +429,7 @@ def camera_from_ngl_state(state_d, zoom_factor=300.0):
 
 def process_colors(color, xyz):
     """utility function to normalize colors on an set of things
+
     Parameters
     ----------
     color : np.array
@@ -443,6 +444,7 @@ def process_colors(color, xyz):
     bool
         map_colors, whether the colors should be mapped through a colormap
         or used as is
+
     """
     map_colors = False
     if not isinstance(color, np.ndarray):

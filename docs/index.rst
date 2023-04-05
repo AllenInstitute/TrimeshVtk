@@ -10,7 +10,15 @@ Welcome to trimesh_vtk's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   intro.rst
 
+API
+---
+.. toctree::
+   :maxdepth: 2
+   :caption: API:
+
+   api/trimesh_vtk
 
 Indices and tables
 ==================
